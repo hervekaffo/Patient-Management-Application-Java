@@ -6,9 +6,11 @@ Author : Herve Taning Kaffo.
 1.	How to compile and run the project
 This project folder will contain 3 java files (Login.java, Main_Windows.java, EmailValidator.java) the Database file (PHCP_DB.sqlite), the logo image (logo.png) and the SQLite driver for windows (sqlite-jdbc-3.8.11.2.jar) since our program connect to a SQLite Database.  
 Our start page is the login page, so you simply need to compile it first using the command: 
+
 javac Main_Windows.java 
  
-To run the program you need to indicate to the compiler the path of the SQLite driver, since it is located in the same folder, the command to run the program will be 
+To run the program you need to indicate to the compiler the path of the SQLite driver, since it is located in the same folder, the command to run the program will be
+
 java -classpath ".;sqlite-jdbc-3.8.11.2.jar" Main_Windows
  
  
