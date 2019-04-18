@@ -1,7 +1,6 @@
 /*
- * Herve Taning Kaffo & Kevin Montreal.
- * Final group Project
- * Rapid Prototype
+ * Herve Taning Kaffo 
+ * Patient Management Application
  */
 
 import java.awt.image.ImageObserver;
